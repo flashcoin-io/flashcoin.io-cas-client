@@ -1,0 +1,38 @@
+{
+  "name": "cas-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.unseen.is:capitalbits/cas-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.47"
+  },
+  "jspm": {
+    "dependencies": {
+      "core-js": "npm:core-js@^2.4.1",
+      "history": "npm:history@^4.4.0",
+      "md5": "npm:md5@^2.2.1",
+      "preact": "npm:preact@^6.4.0",
+      "preact-router": "npm:preact-router@^2.3.1",
+      "riot": "npm:riot@^2.6.5",
+      "text": "github:systemjs/plugin-text@^0.0.9",
+      "ts": "github:frankwallis/plugin-typescript@^5.2.9"
+    },
+    "devDependencies": {
+      "ts-runtime": "npm:babel-runtime@^5.8.24",
+      "typescript": "npm:typescript@^1.6.2"
+    },
+    "buildConfig": {
+      "transpileES6": true,
+      "minify": true
+    }
+  }
+}
